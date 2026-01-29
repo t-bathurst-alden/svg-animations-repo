@@ -1,0 +1,89 @@
+#flavours div {
+    width: 250px;
+}
+
+#lime:hover {
+    animation: limespin 0.7s ease-in-out;
+}
+
+@keyframes limespin {
+    0%  { transform: rotate(0deg); }
+    50% { transform: rotate(360deg); }
+    100% { transform: rotate(0deg); }
+}
+
+
+#lemon:hover {
+    animation: lemonjump 0.7s ease-in-out;
+}
+
+@keyframes lemonjump {
+   0% {transform: translateY(0px);}
+   25% {transform: translateY(-10px);}
+   50% {transform: translateY(0px);}
+   75% {transform: translateY(-10px);}
+   100% {transform: translateY(0px);}
+}
+
+#orange:hover {
+    animation: orangeshuffle 0.7s ease-in-out;
+}
+
+@keyframes orangeshuffle {
+   0% {transform: translateX(0px);}
+   25% {transform: translateX(-20px);}
+   50% {transform: translateX(0px);}
+   75% {transform: translateX(20px);}
+   100% {transform: translateX(0px);}
+}
+
+#grapefruit:hover {
+    animation: grapefruitpulse 0.7s ease-in-out;
+}
+
+@keyframes grapefruitpulse {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.2);}
+    100% {transform: scale(1);}
+}
+
+#lemonrasp:hover {
+    animation: lemonraspanim 0.7s ease-in-out;
+}
+
+@keyframes lemonraspanim {
+    0% {transform: translateY(-20px);}
+    25% {transform: translateX(20px);}
+    50% {transform: translateY(20px);}
+    75% {transform: translateX(-20px);}
+    100% {transform: translateX(0px);}
+}
+
+
+#orangepeach:hover #peachbody {
+    animation: peachdance 0.7s ease-in-out;
+}
+
+#orangepeach:hover #stem {
+    animation: peachdance 0.7s ease-in-out;
+}
+
+#orangepeach:hover #leaf {
+    animation: peachdance 0.7s ease-in-out;
+}
+
+#orangepeach:hover #orangep {
+    animation: orangedance 0.7s ease-in-out;
+}
+
+@keyframes peachdance {
+   0% {transform: translateX(0px);}
+   50% {transform: translateX(-20px);}
+   100% {transform: translateX(0px);}
+}
+
+@keyframes orangedance {
+   0% {transform: translateX(0px);}
+   50% {transform: translateX(20px);}
+   100% {transform: translateX(0px);}
+}
