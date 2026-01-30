@@ -12,8 +12,8 @@ Open index.html in any browser you wish.
 5. Submit a pull request.
 ## History
 First Commit: Folder structure, adding SVGs, and coming up with animations.
-Second Commit: Adding necessary files for GitHub best practices.
-Third Commit: Ideally fixing JavaScript.
+Second Commit: Fixing GitHub error and adding necessary files for GitHub best practices.
+Third Commit: Going back to fix a few things because GitHub couldn't open the file for the longest time :D
 ## Credits
 Tegan Bathurst-Alden
 ## License
