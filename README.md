@@ -14,6 +14,7 @@ Open index.html in any browser you wish.
 First Commit: Folder structure, adding SVGs, and coming up with animations.
 Second Commit: Adding necessary files for GitHub best practices.
 Third Commit: Ideally fixing JavaScript.
+Fourth Commit (I Think?): I figured out how to fix the queryselections and the console functions.
 ## Credits
 Tegan Bathurst-Alden
 ## License
