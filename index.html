@@ -19,19 +19,19 @@
             <section id="flavours" class="grid-con center-grid-con">
                 <h2 class="hidden">SVGs</h2>
                 <div class="col-span-4">
-                    <object data="images/lime.svg" type="image/svg+xml" id="lime"></object>
+                    <img src="images/lime.svg" alt="A slice of lime" id="lime">
                 </div> 
                 <div class="col-span-4">
-                    <object data="images/lemon.svg" type="image/svg+xml" id="lemon"></object>
+                    <img src="images/lemon.svg" alt="A slice of lemon" id="lemon">
                 </div>
                  <div class="col-span-4">
-                    <object data="images/orange.svg" type="image/svg+xml" id="orange"></object>
+                    <img src="images/orange.svg" alt="A slice of orange" id="orange">
                 </div>
                 <div class="col-span-4">
-                    <object data="images/grapefruit.svg" type="image/svg+xml" id="grapefruit"></object>
+                    <img src="images/grapefruit.svg" alt="A slice of grapefruit" id="grapefruit">
                 </div>
                 <div class="col-span-4">
-                    <object data="images/lemonrasp.svg" type="image/svg+xml" id="lemonrasp"></object>
+                    <img src="images/lemonrasp.svg" alt="A lemon slice and two raspberries" id="lemonrasp">
                 </div>
                 <div class="col-span-4">
                     <svg id="orangepeach" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 37.46 27.47">
@@ -111,6 +111,12 @@
                         </g>
                         </svg>
                 </div>               
+            </section>
+            <section class="grid-con center-grid-con">
+                <h2 class="hidden">Explanation</h2>
+                <div class="col-span-full">
+                    <p>The first 5 icons are using querySelectorAll, as they function best as images. I would have done all inline SVGs, but I could not find a way to avoid the colours of the SVGs being scrambled. The final SVG, the inline one that has a more intricate animation is using its own querySelector. Nonetheless, I have figured out some backwards held-together-with-scotch-tape solution, thank goodness.😪 Now I'm going home to eat some soup for this sickness.</p>
+                </div>
             </section>
         </main>
         <script src="js/main.js"></script>
