@@ -15,6 +15,7 @@ First Commit: Folder structure, adding SVGs, and coming up with animations.
 Second Commit: Adding necessary files for GitHub best practices.
 Third Commit: Ideally fixing JavaScript.
 Fourth Commit (I Think?): I figured out how to fix the queryselections and the console functions.
+Fifth commit: Hiding a header.
 ## Credits
 Tegan Bathurst-Alden
 ## License
